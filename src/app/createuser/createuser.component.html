@@ -1,0 +1,57 @@
+<form class="uk-form-stacked">
+<div class="container">
+
+    <mat-toolbar>
+        <span>Create</span>
+    <div class="style"></div>
+      </mat-toolbar>
+      <mat-card style="margin-top: 10px;">
+
+      <form>
+      <mat-grid-list cols="4" rowHeight="70px">
+    <mat-grid-tile [colspan]="1" [rowspan]="1"  >
+
+        <mat-form-field class="ancho">
+            <mat-label>Name</mat-label>
+            <textarea matInput placeholder="Ex. Belal Ashraf..."></textarea>
+          </mat-form-field>
+    </mat-grid-tile>
+
+
+    <mat-grid-tile [colspan]="3" [rowspan]="4"  >
+        <img src="./assets/images/1.jpg" width="300px" height="300">
+    </mat-grid-tile>
+    <mat-grid-tile [colspan]="1" [rowspan]="1"  >
+        <mat-form-field class="ancho">
+            <mat-label>City</mat-label>
+            <input matInput>
+          </mat-form-field>
+
+    </mat-grid-tile>
+    
+    
+    <mat-grid-tile [colspan]="1" [rowspan]="1"  >
+        <mat-form-field class="ancho">
+            <mat-label>Gender</mat-label>
+            <mat-select>
+              <mat-option value="one">Male</mat-option>
+              <mat-option value="two">Female</mat-option>
+            </mat-select>
+          </mat-form-field>
+    </mat-grid-tile>
+
+    <mat-grid-tile [colspan]="1" [rowspan]="1"  >
+        <button mat-raised-button style="margin-right: 20px;">Cancel</button>
+        <button mat-raised-button color="primary">Save</button>
+    </mat-grid-tile>
+         
+      </mat-grid-list>
+
+       
+      </form>
+
+      
+    </mat-card>
+
+</div>
+</form>

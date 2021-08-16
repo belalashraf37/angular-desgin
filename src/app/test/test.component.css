@@ -1,0 +1,36 @@
+.formbody{
+    box-shadow: 0 0 7px 1px lightgrey;
+    background-color: white;
+    position: relative;
+    top: 105px;
+    margin: 5px 0 px;
+    margin: 0 30px;
+}
+.background{
+    height: 657px;
+    background: #f3f3f3ba;
+   
+}
+input , select{
+    border-radius: 50px;
+    background: #f3f3f3ba;
+    
+}
+select{
+    font-weight: bold;
+}
+textarea{
+    background: #f3f3f3ba;
+    margin-bottom: 40px;
+}
+.header{
+    margin-left: 27px;
+    padding-top: 18px
+}
+
+button.uk-button.uk-button-primary.float-right {
+    position: absolute;
+    right: 47px;
+    bottom: 10px;
+    background-color: rgb(2, 29, 29);
+}
